@@ -89,3 +89,19 @@ Par exemple, on peut créer un en-tête personnalisé comme <b>"X-Custom-Header"
 <p>Cependant, l'absence d'état peut également poser des problèmes. Par exemple, lorsque des sessions utilisateur doivent être gérées (par exemple, pour les connexions utilisateur, les paniers d'achat, etc.), cela nécessite généralement l'ajout d'une couche d'abstraction supplémentaire, souvent sous la forme de cookies ou de sessions côté serveur, pour maintenir l'état entre les requêtes.</p>
 <h3>Complexité côté client</h3>
 <p>La gestion de l'état côté client (par exemple, via des cookies) peut rendre les applications web plus complexes du côté du client, car elles doivent conserver et transmettre des informations d'une page à l'autre.</p>
+
+<h2>La décomposition d'une URL:</h2>
+</br>
+<p>L'URL se divise en 4 parties :</p>
+<ul>
+        <li><b>Le protocole :</b> forme de langage universel.</li>
+        <li>Sous domaine</li>
+        <li>Domaine</li>
+        <li>Chemin</li>
+</ul>
+<img src="https://image.noelshack.com/fichiers/2023/38/1/1695040471-url-1.jpg">
+
+</br>
+</br>
+<h2>Sources</h2>
+<p>https://www.anthedesign.fr/referencement/url/#:~:text=Dans%20une%20URL%2C%20on%20trouve,une%20forme%20de%20langage%20universel. </p>
