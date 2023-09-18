@@ -24,3 +24,8 @@
 <p>Si vous utilisez une méthode POST pour effectuer la même recherche, les termes de recherche seraient inclus dans le corps de la requête plutôt que dans l'URL. Vous ne verriez pas les termes de recherche dans l'URL</p>
 <h4>Conclusion :</h4>
 <p>En résumé, la principale différence entre les méthodes GET et POST réside dans la manière dont les données sont transmises. GET les inclut dans l'URL, tandis que POST les envoie dans le corps de la requête. Le choix entre les deux dépend du type de données que vous envoyez et des besoins de votre application.</p>
+</br>
+< table >
+< tr > < td >Critères< /td > < td >HTTP GET< /td ><td>HTTP POST</td> < /tr >
+< tr > < td >Contenu colonne 1< /td > < td >Contenu colonne 2< /td > < /tr >
+< /table >
