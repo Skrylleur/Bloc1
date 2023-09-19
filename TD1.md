@@ -92,15 +92,32 @@ Par exemple, on peut créer un en-tête personnalisé comme <b>"X-Custom-Header"
 
 <h2>La décomposition d'une URL:</h2>
 </br>
-<p>L'URL se divise en 4 parties :</p>
+<p>L'URL se divise en 3 parties :</p>
 <ul>
         <li><b>Le schéma :</b> Il est utilisé par le serveur et la page web pour transférer des données vers votre ordinateur.</li>
         <li><b>Nom d'hôte (host) :</b> Il s'agit de l'adresse IP ou du nom associé au serveur qui héberge la ressource. C'est ce qui permet de localiser physiquement la machine sur le réseau.</li>
         <li><b>Le chemin :</b> Le chemin est toute partie de l’URL qui vient après le nom de domaine, avant un point d’interrogation ou un # qui ajoute des informations supplémentaires à une URL</li>
 </ul>
-
 </br>
+<h2>Les codes de statut HTTP</h2>
+<p>Il existe 5 classes de codes de statut HTTP :</p>
+</br>
+<table>
+<tr>
+<td>Classe de code</td>
+<td>Description</td>
+<td>Exemple</td>
+</tr>
+<tr>
+<td>100s</td>
+<td></td>
+<td></td>
+</tr>
+
+
+</table>
 </br>
 <h2>Sources</h2>
 <p>https://www.anthedesign.fr/referencement/url/#:~:text=Dans%20une%20URL%2C%20on%20trouve,une%20forme%20de%20langage%20universel. </p>
 <p>https://kinsta.com/fr/base-de-connaissances/description-url/#:~:text=Quand%20les%20utiliser-,Qu%27est%2Dce%20qu%27,une%20URL%20(Uniform%20Resource%20Locator)&text=Une%20URL%20mène%20à%20un,du%20site%20ou%20du%20serveur.</p>
+<p>https://kinsta.com/fr/blog/codes-statut-http/</p>
