@@ -102,23 +102,58 @@ Par exemple, on peut créer un en-tête personnalisé comme <b>"X-Custom-Header"
 <h2>Les codes de statut HTTP</h2>
 <p>Il existe 5 classes de codes de statut HTTP :</p>
 </br>
-<table>
-<tr>
-<td>Classe de code</td>
-<td>Description</td>
-<td>Exemple</td>
-</tr>
-<tr>
-<td>100s</td>
-<td></td>
-<td></td>
-</tr>
-
-
-</table>
+        <table>
+                <tr>
+                        <td>Classe de code</td>
+                        <td>Description</td>
+                        <td>Exemple</td>
+                </tr>
+                <tr>
+                        <td>100s</td>
+                        <td>Codes d'information indiquant que la demande initiée par le navigateur se poursuit.</td>
+                        <td>"100 Continue" - Indique que le serveur a reçu la requête initiale, et que le client doit continuer avec la requête a été reçue, comprise, acceptée et traitée avec succès.</td>
+                </tr>
+                <tr>
+                        <td>200s</td>
+                        <td>Les codes de réussite sont renvoyés lorsque la requête du navigateur est reçue, comprise et traitée par le serveur.</td>
+                        <td>"200 OK" - La requête a été traitée avec succès.</td>
+                </tr>
+                <tr>
+                        <td>300s</td>
+                        <td>Codes de redirection renvoyés lorsqu'une nouvelle ressource a été substituée à la ressource demandée.</td>
+                        <td>"301 Moved Permanently" - La ressource demandée a été déplacée de façon permanente vers une nouvelle URL.</td>
+                </tr>
+                <tr>
+                        <td>400s</td>
+                        <td>Les codes d'erreur des clients indiquant qu'il y a eu un problème avec la requête.</td>
+                        <td>"404 Not Found" - Ce code de statut indique que le client a envoyé trop de requêtes dans un laps de temps donné.</td>
+                </tr>
+                <tr>
+                        <td>500s</td>
+                        <td>Codes d'erreur du serveur indiquant que la requête a été acceptée, mais qu'une erreur sur le serveur a empêché l'exécution de la requête.</td>
+                        <td>"500 Internal Server Error" - Une erreur interne du serveur s'est produite, souvent à cause d'un bug dans le serveur.</td>
+                </tr>
+        </table>
+</br>
+<h2>Négociation de contenu :</h2>
+<p>La négociation de contenu est un mécanisme du protocole HTTP qui permet de proposer une même ressource (identifiée par son URI) sous plusieurs formes différentes. Les variations permises concernent la langue de la ressource et son type MIME. Les clients HTTP peuvent ainsi choisir automatiquement la représentation la mieux adaptée à leurs capacités.</p>
+<p>Quand un client soumet une requête à un serveur, il informe celui-ci des types de média qu'il comprend et de ses préférences. Concrètement, le client envoie deux en-têtes HTTP. Le premier, Accept-Language, liste les langues reconnues par le client, pondérées par des taux d’acceptabilité. Le second en-tête, Accept, fonctionne de façon analogue pour la liste des types MIME compris par le navigateur. Le serveur répond avec la version de la ressource la mieux adaptée aux capacités communiquées par le client.</p>
+</br>
+<h2>Résultats et commentaires sur les commandes :</h2>
+</br>
+<h2>Les en-têtes HTTP :</h2>
+<p>Les en-têtes HTTP permettent au client et au serveur de transmettre des informations supplémentaires avec la requête ou la réponse. Un en-tête de requête est constitué de son nom (insensible à la casse) suivi d'un deux-points :, puis de sa valeur (sans saut de ligne). L'espace blanc avant la valeur est ignoré.</p>
+        <table>
+                <tr>
+                        <td>Requête</td>
+                        <td>Explication</td>
+                        <td>Illustration du rôle</td>
+                </tr>
+        </table>
 </br>
 <h2>Sources</h2>
 <p>https://www.anthedesign.fr/referencement/url/#:~:text=Dans%20une%20URL%2C%20on%20trouve,une%20forme%20de%20langage%20universel. </p>
 <p>https://kinsta.com/fr/base-de-connaissances/description-url/#:~:text=Quand%20les%20utiliser-,Qu%27est%2Dce%20qu%27,une%20URL%20(Uniform%20Resource%20Locator)&text=Une%20URL%20mène%20à%20un,du%20site%20ou%20du%20serveur.</p>
 <p>https://kinsta.com/fr/blog/codes-statut-http/</p>
 <p>https://fr.wikipedia.org/wiki/Négociation_de_contenu#:~:text=automatisant%20la%20sélection.-,Fonctionnement,par%20des%20taux%20d%27acceptabilité.</p>
+<p>https://developer.mozilla.org/fr/docs/Web/HTTP/Headers</p>
