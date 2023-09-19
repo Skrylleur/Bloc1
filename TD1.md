@@ -121,3 +121,4 @@ Par exemple, on peut créer un en-tête personnalisé comme <b>"X-Custom-Header"
 <p>https://www.anthedesign.fr/referencement/url/#:~:text=Dans%20une%20URL%2C%20on%20trouve,une%20forme%20de%20langage%20universel. </p>
 <p>https://kinsta.com/fr/base-de-connaissances/description-url/#:~:text=Quand%20les%20utiliser-,Qu%27est%2Dce%20qu%27,une%20URL%20(Uniform%20Resource%20Locator)&text=Une%20URL%20mène%20à%20un,du%20site%20ou%20du%20serveur.</p>
 <p>https://kinsta.com/fr/blog/codes-statut-http/</p>
+<p>https://fr.wikipedia.org/wiki/Négociation_de_contenu#:~:text=automatisant%20la%20sélection.-,Fonctionnement,par%20des%20taux%20d%27acceptabilité.</p>
