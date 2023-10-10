@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: #ddd9d8;
 }
 
 img{
@@ -17,4 +17,17 @@ img{
 
 h1, h2, h3{
     text-align: center;
+}
+
+.squircle1, .squircle2, .squircle3, .squircle4 {
+    width: 230px;
+    height: 250px;
+    background-color: #f5683b;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.squircles {
+    display: flex;
+    justify-content: space-around;
 }
