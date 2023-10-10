@@ -14,3 +14,8 @@ a{
     color: #53bef5;
     text-decoration: none;
 }
+.nav a{ /* tous les liens à l'intérieur de la balise nav */
+    float: left; /*effet flottant*/
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #000;
+}
