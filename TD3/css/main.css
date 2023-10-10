@@ -1,8 +1,9 @@
 .carrebas {
     color: white;
     width: auto;
-    height: auto;
+    height: 50px;
     background-color: #333;
+    text-align: center;
 }
 
 body {
@@ -12,4 +13,8 @@ body {
 img{
     width: 100%;
     height: auto;
+}
+
+h1, h2, h3{
+    text-align: center;
 }
