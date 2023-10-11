@@ -27,7 +27,6 @@ h1, h2, .sstitre{
 
 h2 {
     font-size: 12;
-    margin-bottom: 15px;
 }
 
 .sstitre{
@@ -38,7 +37,7 @@ h2 {
     font-size:medium;
     width: 200px;
     height: 250px;
-    background-color: #f5683b;
+    background-color: white;
     border-radius: 5%;
     margin-left: 10px;
     margin-right: 10px;
@@ -58,8 +57,8 @@ h2 {
     color: white;
     border-radius: 20px;
     background-color: #f5683b;
-    width: 60%;
-    height: auto;
+    width: 35%;
+    height: 175px;
     position: relative;
     z-index: 1;
     margin-top: 20px;
