@@ -31,11 +31,13 @@ body {
 }
 
 .columnleft {
-    flex: 1 1 auto;   
+    flex: 1 1 auto;
+    margin: 0 30px;
 }
 
 .columnright{
     flex: 1 1 auto;
+    margin: 0 30px;
 }
 
 .columncenter {
@@ -43,7 +45,7 @@ body {
 }
 
 .img6, .img8, .img5 {
-    width: 40%;
+    width: 100%;
     height: auto;
 }
 
@@ -63,14 +65,30 @@ h3 {
 }
 
 .readmore {
-    border: 5px #263985;
-    margin-top: 10px;
+    border: 1px solid #cfdce8;
+    margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
     width: fit-content;
     height: auto;
-    background-color:#55add5;
-    color: white;
+    background-color:#e3eeff;
+    color: #23324f;
     font-size: 8;
     padding: 5px;
+}
+
+.img9, .img7 {
+    width: 85%;
+    height: auto;
+
+}
+
+h4 {
+    font-style: normal;
+    font-size: 12;
+    color: #263985;
+}
+
+.txtcolumnright {
+    text-align: left;
 }
