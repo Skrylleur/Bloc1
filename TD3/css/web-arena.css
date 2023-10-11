@@ -42,7 +42,7 @@ body {
     flex: 1 1 auto;
 }
 
-.img6 {
+.img6, .img8, .img5 {
     width: 40%;
     height: auto;
 }
@@ -63,6 +63,7 @@ h3 {
 }
 
 .readmore {
+    border: 5px #263985;
     margin-top: 10px;
     margin-bottom: 5px;
     border-radius: 10px;
