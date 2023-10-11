@@ -41,3 +41,35 @@ body {
 .columncenter {
     flex: 1 1 auto;
 }
+
+.img6 {
+    width: 40%;
+    height: auto;
+}
+
+h3 {
+    color: #55add5;
+}
+
+.bloc {
+    border-radius: 20%;
+    display: inline-block;
+    height: auto;
+    background-color:#55add5;
+    color: white;
+    font-size: 8;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.readmore {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width: fit-content;
+    height: auto;
+    background-color:#55add5;
+    color: white;
+    font-size: 8;
+    padding: 5px;
+}
