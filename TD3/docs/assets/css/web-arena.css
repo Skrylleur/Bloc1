@@ -26,6 +26,8 @@ body {
     background: #55add5;
     height: 5px;
     width: 65px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .columns {
@@ -40,6 +42,7 @@ body {
 .columnright{
     flex: 1 1 auto;
     margin: 0 30px;
+    width: 40%;
 }
 
 .columncenter {
@@ -48,7 +51,7 @@ body {
 }
 
 .img6, .img8, .img5 {
-    width: 80%;
+    width: 90%;
     height: auto;
 }
 
