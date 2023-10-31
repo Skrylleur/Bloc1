@@ -1,0 +1,32 @@
+h2{
+    color: #5d8f47;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.ColorRed{
+    color: #ea9999;
+}
+.ColorBlue{
+   color: #53bef5; 
+}
+a{
+    color: #53bef5;
+    text-decoration: none;
+}
+.nav a{ /* tous les liens à l'intérieur de la balise nav */
+    float: left; /*effet flottant*/
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #000;
+    background-color: grey;
+    height: 36px;
+    line-height: 33px;
+    padding: 0 10px;
+    font-size: 17px;
+    transition: .5s;
+}
+nav a:hover {
+    margin-top: 100px;
+    height: auto;
+    background-color: #dfdfdf;
+}

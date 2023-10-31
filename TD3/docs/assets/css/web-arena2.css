@@ -1,0 +1,150 @@
+.partners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.head {
+    width: 100%;
+    height: 200px;
+}
+
+.body {
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+
+.TitleBody {
+    font-size: 50px;
+    text-align: center;
+}
+
+.WWA {
+    background-color: white;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.trait {
+    margin-top: -30px;
+    background-color: #63A5BF;
+    width: 100px;
+    height: 5px;
+    margin-bottom: 15px;
+}
+
+p {
+    width: 800px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.blocReadMore {
+    background-color: #DEEAFB;
+    border: 1px solid #63A5BF;
+    border-radius: 5%;
+    height: 35px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: default;
+}
+
+.OurPartners {
+    background-color: white;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#p2 {
+    text-align: center;
+}
+
+.footer {
+    background: linear-gradient(to right, #263985, #55add5);
+    height: 75px;
+    width: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-left: 20px;
+    justify-content: space-around;
+    color: white;
+    height: 25px;
+}
+
+.onglet {
+    cursor:default;
+}
+
+.onglet:hover {
+    background-color: white;
+    height: 2px;
+}
+
+.overlay p {
+    margin: 0;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    margin: 0;
+}
+
+.logosearch {
+    width: auto;
+    height: 15px;
+}
+
+.logoprofil {
+    width: auto;
+    height: 18px; 
+}
+
+.blocReadMore:hover{
+    background-color: #63A5BF;
+    color: white;
+}
+
+.logosearch:hover {
+    width: auto;
+    height: 23px; 
+}
+
+.logoprofil:hover {
+    width: auto;
+    height: 23px;
+}
