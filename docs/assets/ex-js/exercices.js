@@ -1,3 +1,4 @@
+//Exercice 1
 var ancienneCouleur
 
 function ChangeColor () {
@@ -20,6 +21,7 @@ function changeColor2 () {
     }
 }
 
+//Exercice 2
 function AddText() {
     var NewElement = document.getElementById('nom').value;
 
@@ -33,6 +35,7 @@ function AddText() {
     }
 }
 
+//Exercice 3
 function Addition() {
     var Value1 = document.getElementById('nb1').value;
     var Value2 = document.getElementById('nb2').value;
@@ -47,4 +50,16 @@ function Addition() {
         document.getElementById('Nb1') = '';
         document.getElementById('Nb2') = '';
     }
+}
+
+//Exercice 4
+document.getElementById('imageSelector').addEventListener('change', function() {
+    var selectedValue = this.value;
+    var imageDisplay = document.getElementById('imageDisplay');
+    imageDisplay.src = selectedValue;
+});
+
+//Exercice 5 
+function afficherAlert() {
+    alert('Touche pas il est mineur')
 }
